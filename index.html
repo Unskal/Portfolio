@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mathis Delaune - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="sidebar">
+        <div class="nav-content">
+            <a href="#accueil" class="logo">Mathis Delaune</a>
+            <ul class="nav-links">
+                <li><a href="#accueil" class="nav-item">Accueil</a></li>
+                <li><a href="#apropos" class="nav-item">À Propos</a></li>
+                <li><a href="#bts" class="nav-item">BTS SIO</a></li>
+                <li><a href="#projets" class="nav-item">Projets</a></li>
+                <li><a href="#certifications" class="nav-item">Certifications</a></li>
+                <li><a href="#veille" class="nav-item">Veille</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="accueil" class="hero section">
+            <div class="hero-content">
+                <h1><span class="highlight">Mathis Delaune</span></h1>
+                <h2>Bienvenue sur mon Portfolio </h2>
+                <p>Étudiant en BTS SIO Option SLAM, à la recherche d'une alternance en cybersécurité pour la rentrée 2026.</p>
+                <a href="#projets" class="btn-primary">Voir mes projets</a>
+            </div>
+        </section>
+
+        <section id="apropos" class="section alt-bg">
+            <h2 class="section-title">À Propos de moi</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Ici, tu pourras mettre ta présentation complète. Le format One-Page permet aux recruteurs de tout lire d'un coup en scrollant.</p>
+                    <a href="Ressources/Dl/CvMathisDelaune.pdf" download="CV_Mathis_Delaune.pdf" class="btn-secondary">Télécharger mon CV</a>
+                </div>
+                <!-- 
+                <div class="about-image">
+                    <img src="Ressources/Moi.jpg" alt="image de moi" class="profile-img">
+                </div>
+                -->
+            </div>
+        </section>
+        <section id="bts" class="section">
+            <h2 class="section-title">BTS SIO (Option SLAM)</h2>
+    
+            <div class="cards-grid">
+                <div class="glass-card">
+                    <h3>Mes Compétences en développement</h3>
+                    <ul class="clean-list">
+                        <li>Développement Web (HTML, CSS, JS, PHP)</li>
+                     <li>Développement Logiciel (Go, Java, C#)</li>
+                       <li>Bases de données (MySQL, MariaDB)</li>
+                    </ul>
+                </div>
+        
+                <div class="glass-card">
+                    <h3>Mes Compétences en réseau</h3>
+                    <ul class="clean-list">
+                        <li>Environnements (Windows Server, Linux)</li>
+                        <li>Infrastructures réseau (Switchs, Routeurs, VLAN, Pare-feu, VPN)</li>
+                        <li>Outils (WireGuard, Active Directory, Hyper-V)</li>
+                    </ul>
+                </div>
+            </div> </section>
+
+        <section id="projets" class="section alt-bg">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="cards-grid">
+                <div class="glass-card project-card">
+                    <span class="badge">Web</span>
+                    <h3>Happy Feet Bien-être</h3>
+                    <p>Conception et développement complet d'un site web avec CMS sur-mesure pour une association.</p>
+                    <div class="tech-tags">
+                        <span>PHP</span><span>HTML</span><span>CSS</span><span>JS</span><span>MySQL</span>
+                    </div>
+                    <a href="https://www.happyfeetbienetre.ovh/" target="_blank" class="project-link">Visiter le site →</a>
+                </div>
+
+                <div class="glass-card project-card">
+                    <span class="badge">Logiciel</span>
+                    <h3>Unsflix</h3>
+                    <p>Application logicielle en Go de streaming vidéo permettant de lire des films stockés sur un serveur distant.</p>
+                    <div class="tech-tags">
+                        <span>Go</span><span>Fyne</span><span>WireGuard</span><span>MariaDB</span>
+                    </div>
+                    <a href="unsflix.html" class="project-link">En savoir plus →</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cards-grid">
+                <div class="glass-card">
+                    <span class="badge">Obtenue</span>
+                    <h3>SecNumacadémie (ANSSI)</h3>
+                    <p>Validation des acquis fondamentaux en matière de sécurité informatique et de cybermenaces.</p>
+                    <ul class="clean-list">
+                        <li>Sécurité de l'information et des communications</li>
+                        <li>Authentification et gestion des accès</li>
+                        <li>Protection du poste de travail et nomadisme</li>
+                        <li>Identification et prévention des cyberattaques</li>
+                    </ul>
+                    <a href="Ressources/Dl/AttestationSecNumMathisDelaune.pdf" download="AttestationSecNumMathisDelaune.pdf" class="project-link">Attestation →</a>
+                </div>
+                <div class="glass-card">
+                    <span class="badge">Obtenue</span>
+                    <h3>Atelier RGPD (CNIL)</h3>
+                    <p>Validation des connaissances fondamentales sur le cadre légal de la protection des données.</p>
+                    <ul class="clean-list">
+                        <li>Le RGPD et ses notions clés</li>
+                        <li>Les principes de protection des données</li>
+                        <li>Les responsabilités des acteurs</li>
+                        <li>Le DPO et les outils de la conformité</li>
+                        <li>Les collectivités territoriales</li>
+                    </ul>
+                    <a href="Ressources/Dl/attestationsMathisDelauneRGPD.zip" download="attestationsMathisDelauneRGPD.zip" class="project-link">Attestation →</a>
+                </div>
+            </div>
+        </section>
+        <section id="veille" class="section alt-bg">
+            <h2 class="section-title">Veille Technologique</h2>
+            <div class="veille-topic">
+                <h3 class="veille-topic-title">Machine Learning</h3>
+                <div class="veille-articles">
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">1.</span>
+                            <p class="veille-article-title">SaneBox, une solution de gestion intelligente des emails</p>
+                        </div>
+                        <span class="veille-date">15 Avril 2026</span>
+                        <a href="https://www.lebigdata.fr/sanebox-solution-de-gestion-intelligente-des-emails" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Cet article de LeBigData explique comment l'entreprise SaneBox déploie des algorithmes de Machine Learning pour analyser l'historique de communication des professionnels (avocats, médecins) afin de trier automatiquement les emails critiques du "bruit de fond", sans configuration manuelle lourde.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">2.</span>
+                            <p class="veille-article-title">Replika AI : pourquoi les internautes veulent coucher avec cette IA ?</p>
+                        </div>
+                        <span class="veille-date">7 Avril 2026</span>
+                        <a href="https://www.lebigdata.fr/replika-ai-tout-savoir" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un cas d'usage sociétal très concret. L'article détaille comment l'application Replika utilise le Machine Learning pour s'adapter au comportement de l'utilisateur et simuler une relation (amicale ou romantique), soulevant des questions sur la santé mentale et l'addiction aux chatbots.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">3.</span>
+                            <p class="veille-article-title">Le Machine Learning pour révéler les secrets des collisions de particules</p>
+                        </div>
+                        <span class="veille-date">18 Février 2026</span>
+                        <a href="https://home.cern/news/news/physics/machine-learning-reveal-more-about-lhc-particle-collisions" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Une actualité officielle du CERN démontrant que leurs récents modèles de Machine Learning surpassent désormais les méthodes traditionnelles pour reconstruire et analyser les collisions de particules dans le grand collisionneur de hadrons (LHC).</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">4.</span>
+                            <p class="veille-article-title">Les missions concrètes d'un Ingénieur Machine Learning en 2026</p>
+                        </div>
+                        <span class="veille-date">16 Février 2026</span>
+                        <a href="https://em-lyon.com/fr/etudiant/guides/metiers/ingenieur-machine-learning" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Cet article d'orientation de l'emlyon illustre concrètement ce que fait le ML aujourd'hui en entreprise : optimisation de la chaîne logistique, reconnaissance faciale, et systèmes de détection de fraude dans les banques-assurances.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">5.</span>
+                            <p class="veille-article-title">Un "ChatGPT pour tableurs" pour résoudre des défis d'ingénierie</p>
+                        </div>
+                        <span class="veille-date">4 Mars 2026</span>
+                        <a href="https://news.mit.edu/2026/chatgpt-spreadsheets-helps-solve-difficult-engineering-challenges-faster-0304" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Le MIT News présente une nouvelle approche où le Machine Learning est intégré à des interfaces de type tableur pour aider les ingénieurs à optimiser des problèmes complexes, comme la gestion des réseaux électriques ou la conception de véhicules automobiles.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">6.</span>
+                            <p class="veille-article-title">Améliorer la capacité des modèles d'IA à expliquer leurs prédictions</p>
+                        </div>
+                        <span class="veille-date">9 Mars 2026</span>
+                        <a href="https://news.mit.edu/2026/neurons-receive-precisely-tailored-teaching-signals-as-we-learn-0309" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Toujours via le MIT, cet article se penche sur un cas d'usage critique : la confiance en entreprise. Il présente une nouvelle méthode pour que le Machine Learning puisse justifier ses choix dans des applications où la sécurité est vitale, comme les diagnostics de santé ou la conduite autonome.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">7.</span>
+                            <p class="veille-article-title">8 cas d'usage de l'IA les plus courants en entreprise</p>
+                        </div>
+                        <span class="veille-date">Fin 2025</span>
+                        <a href="https://bigmedia.bpifrance.fr/nos-dossiers/8-cas-dusage-de-lia-les-plus-courants-en-entreprise" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Une recherche du MIT (McGovern Institute) publiée dans Nature révèle que le cerveau humain envoie des signaux de correction ciblés à chaque neurone individuellement lors de l'apprentissage — un mécanisme qui ressemble aux signaux d'erreur utilisés dans le Machine Learning. Cette découverte, réalisée grâce à des interfaces cerveau-ordinateur sur des souris, ouvre la voie à une meilleure compréhension des parallèles entre les réseaux de neurones biologiques et artificiels, et pourrait permettre de concevoir des IA plus proches du fonctionnement du cerveau.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">8.</span>
+                            <p class="veille-article-title">Le Machine Learning dans la formation professionnelle</p>
+                        </div>
+                        <span class="veille-date">Fin 2025 / 2026</span>
+                        <a href="https://www.dendreo.com/lexique/machine-learning-definition" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">L'éditeur d'ERP Dendreo explique comment le Machine Learning est concrètement appliqué dans les organismes de formation de taille moyenne pour personnaliser les parcours pédagogiques et analyser linguistiquement les productions écrites des apprenants.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">9.</span>
+                            <p class="veille-article-title">Le boom de l'AIoT : Quand le Machine Learning intègre les objets</p>
+                        </div>
+                        <span class="veille-date">Janvier 2026</span>
+                        <a href="https://transformainsights.com/ai-machine-learning" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un rapport de Transforma Insights montrant la fusion actuelle entre l'IoT (Internet des Objets) et le Machine Learning. L'article prévoit que d'ici quelques années, un quart des appareils connectés embarqueront nativement des modèles de ML pour des usages industriels.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">10.</span>
+                            <p class="veille-article-title">AWS et les applications industrielles du Machine Learning</p>
+                        </div>
+                        <span class="veille-date">—</span>
+                        <a href="https://aws.amazon.com/fr/what-is/machine-learning/" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Bien que ce soit une page Amazon, elle a été récemment mise à jour avec des cas d'usage précis et sourcés : l'entreprise 3M qui utilise le ML pour innover dans la fabrication de papier abrasif, ou Cambia Health Solutions qui s'en sert pour automatiser le suivi des femmes enceintes.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">11.</span>
+                            <p class="veille-article-title">Mieux maîtriser la notion de temps dans l'apprentissage automatique</p>
+                        </div>
+                        <span class="veille-date">2 Décembre 2025</span>
+                        <a href="https://www.inria.fr/fr/ia-apprentissage-automatique-malt-rennes" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un article de l'institut de recherche Inria. Il aborde un problème technique très concret : la difficulté des modèles de ML à traiter des données temporelles. L'article évoque les tentatives de Google avec son modèle TimesFM et la nécessité de générer des données synthétiques temporelles pour des applications industrielles respectueuses de la vie privée.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">12.</span>
+                            <p class="veille-article-title">IA, IoT, Big Data et Machine Learning dans l'industrie</p>
+                        </div>
+                        <span class="veille-date">15 Octobre 2025</span>
+                        <a href="https://www.divalto.com/ia-iot-big-data-machine-learning-dans-lindustrie/" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Cet article explique le cas d'usage par excellence du Machine Learning en usine : la maintenance prédictive. Il détaille comment les algorithmes de ML ingèrent les signaux faibles issus des capteurs connectés (IoT) pour créer des modèles statistiques capables d'anticiper les pannes avant qu'elles ne se produisent.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">13.</span>
+                            <p class="veille-article-title">La série sur l'IA à France Travail : l'impact environnemental</p>
+                        </div>
+                        <span class="veille-date">20 Avril 2026</span>
+                        <a href="https://solidaires.org/sinformer-et-agir/actualites-et-mobilisations/sectorielles/la-serie-sur-lia-a-france-travail/" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un article syndical critique et très récent concernant le déploiement du Machine Learning au sein de France Travail. Il dénonce l'impact environnemental insoutenable lié à la consommation d'énergie nécessaire pour l'entraînement de ces modèles, tout en pointant du doigt les conditions de travail des "travailleurs du clic" dans les pays du Sud.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">14.</span>
+                            <p class="veille-article-title">Comprendre les fondamentaux de l'IA : ce que les entreprises doivent savoir en 2026</p>
+                        </div>
+                        <span class="veille-date">13 Mars 2026</span>
+                        <a href="https://www.bretagne.cci.fr/blog/comprendre-les-fondamentaux-de-lia-ce-que-les-entreprises-doivent-savoir-en-2026-0" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un compte-rendu de la CCI Bretagne destiné aux décideurs. L'article fait un point clair sur la différence technique et stratégique entre le Machine Learning "classique" et l'IA générative pour les PME. Il aborde également les problématiques de biais et d'hallucinations dans les déploiements concrets en entreprise.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">15.</span>
+                            <p class="veille-article-title">Formation IA 2026 : Quelle certification choisir ?</p>
+                        </div>
+                        <span class="veille-date">16 Avril 2026</span>
+                        <a href="https://www.elitek.fr/post/formation-ia-certification-2026" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un tour d'horizon des compétences exigées en entreprise cette année. L'article détaille notamment la refonte récente des certifications chez Microsoft (Azure) avec l'arrivée de la certification "MLOps Engineer Associate" (déployée en mars 2026), et donne un aperçu concret des salaires (50k à 80k) pour un ingénieur ML en France.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">16.</span>
+                            <p class="veille-article-title">Le machine learning en prévision n'est ni magique, ni un simple argument marketing</p>
+                        </div>
+                        <span class="veille-date">28 Mars 2026</span>
+                        <a href="https://presseagence.fr/paris-mehdi-kharab-le-machine-learning-en-prevision-nest-ni-magique-ni-un-simple-argument-marketing/" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un retour d'expérience très pragmatique d'un expert de l'entreprise Colibri. L'article explique comment le Machine Learning (notamment via les modèles XGBoost) révolutionne la prévision des ventes et la gestion de la Supply Chain, à condition que l'entreprise prépare rigoureusement ses données en amont.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">17.</span>
+                            <p class="veille-article-title">Modèles de classification en machine learning : cas d'usage pour les Jumeaux Numériques</p>
+                        </div>
+                        <span class="veille-date">19 Novembre 2025</span>
+                        <a href="https://www.immersia.eu/fr/ressources/blog/modeles-de-classification-en-machine-learning-cas-dusage-et-bonnes-pratiques" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Cet article technique mais accessible détaille l'utilisation du Machine Learning couplé aux "jumeaux numériques" (digital twins) dans l'industrie. Il montre comment les modèles de classification analysent les données en direct pour prédire l'état d'usure d'un équipement, l'apparition de pannes ou le comportement futur d'une machine.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">18.</span>
+                            <p class="veille-article-title">Utilisation de l'IA en entreprise en 2026 : enjeux, défis et déploiement</p>
+                        </div>
+                        <span class="veille-date">20 Janvier 2026</span>
+                        <a href="https://www.cabinet-mosselmans.com/utilisation-de-lia-en-entreprise/" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un guide concret axé sur les PME/TPE. Il met en lumière l'intégration des algorithmes de Machine Learning dans les services comptables, notamment pour la reconnaissance et l'automatisation du traitement des factures, la détection d'anomalies financières et la prévision de trésorerie.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">19.</span>
+                            <p class="veille-article-title">Qu'est-ce que le MLOps ? De l'artisanat à l'échelle industrielle</p>
+                        </div>
+                        <span class="veille-date">19 Novembre 2025</span>
+                        <a href="https://larevueia.fr/quest-ce-que-le-mlops/" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un article indispensable pour comprendre la réalité du terrain. Il explique que créer un modèle de ML ne suffit plus ; l'enjeu d'entreprises comme Uber ou Netflix est le MLOps. L'article détaille comment ces entreprises déploient, surveillent et mettent à jour automatiquement des milliers de modèles en temps réel pour éviter qu'ils ne "dérivent" une fois en production.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">20.</span>
+                            <p class="veille-article-title">Rapport de l'Assemblée nationale sur l'irruption de l'IA dans les ingérences étrangères</p>
+                        </div>
+                        <span class="veille-date">3 Décembre 2025</span>
+                        <a href="https://www.assemblee-nationale.fr/dyn/17/rapports/cion_afetr/l17b2192_rapport-information" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un document officiel (rapport n° 2192) qui illustre un cas d'usage géopolitique et sécuritaire. Le rapport détaille comment le Machine Learning est désormais utilisé de manière offensive pour l'empoisonnement de données (data poisoning), l'automatisation des cyberattaques et la manipulation d'opinions via des réseaux de faux comptes à grande échelle.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">21.</span>
+                            <p class="veille-article-title">Tem lève 75 M$ pour révolutionner le marché de l'électricité avec l'IA</p>
+                        </div>
+                        <span class="veille-date">16 Février 2026</span>
+                        <a href="https://www.lebigdata.fr/tem-leve-75-m-pour-revolutionner-le-marche-de-lelectricite-avec-lia" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Un cas très concret dans le secteur de l'énergie. L'article explique comment la startup Tem utilise des algorithmes de Machine Learning pour créer une plateforme de transactions énergétiques (Rosso) qui anticipe l'offre et la demande en temps réel, permettant aux entreprises d'obtenir l'électricité au prix de gros.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">22.</span>
+                            <p class="veille-article-title">Tech et Industrie 4.0 : 4 femmes qui façonnent le numérique industriel</p>
+                        </div>
+                        <span class="veille-date">20 Avril 2026</span>
+                        <a href="https://www.francetravail.fr/actualites/a-laffiche/2026/tech-et-industrie-4-0-4-femmes-q.html" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Cet article très récent met en lumière les métiers de l'industrie connectée et donne des exemples industriels tangibles du ML en usine : optimisation des flux de production en temps réel, réduction de la consommation énergétique des machines, et contrôle qualité automatisé détectant les défauts de fabrication avec une "précision surhumaine".</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">23.</span>
+                            <p class="veille-article-title">Atlas, le robot de Boston Dynamics revient en électrique</p>
+                        </div>
+                        <span class="veille-date">26 Janvier 2026</span>
+                        <a href="https://www.lebigdata.fr/atlas-le-robot-de-boston-dynamics-revient-en-electrique" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Au-delà du buzz matériel, l'article détaille le déploiement réel du robot par Hyundai Motor dans ses usines logistiques. Le système embarque des algorithmes de Machine Learning qui lui permettent d'apprendre à trier des pièces automobiles et de "prédire les trajectoires du personnel humain" pour ajuster ses mouvements et éviter les collisions.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">24.</span>
+                            <p class="veille-article-title">Business Intelligence ou informatique décisionnelle : définition et outils</p>
+                        </div>
+                        <span class="veille-date">2 Janvier 2026</span>
+                        <a href="https://www.lebigdata.fr/business-intelligence-definition" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Une bonne synthèse de la manière dont le Machine Learning a infusé dans les outils de Business Intelligence classiques. L'article prend l'exemple de l'industrie hôtelière et des compagnies aériennes, qui utilisent ces modèles pour prédire les taux d'occupation et ajuster leur tarification de manière dynamique et autonome.</p>
+                    </div>
+
+                    <div class="glass-card veille-card">
+                        <div class="veille-header">
+                            <span class="veille-number">25.</span>
+                            <p class="veille-article-title">L'utilisation de l'IA en entreprise : impacts sur les employés et les clients</p>
+                        </div>
+                        <span class="veille-date">19 Décembre 2025</span>
+                        <a href="https://www.nexa.fr/blog/utilisation-de-l-ia-en-entreprise-impacts-sur-les-employes-et-les-clients" target="_blank" class="project-link veille-link">Lire l'article →</a>
+                        <p class="veille-summary">Ce billet détaille les différents pans de l'IA déployés aujourd'hui en entreprise. Concernant le volet purement Machine Learning, l'article met en évidence son utilisation quotidienne pour l'élaboration de résultats prédictifs (à partir de données volumineuses) afin d'optimiser les performances commerciales et de réduire les coûts opérationnels.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Mathis Delaune</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

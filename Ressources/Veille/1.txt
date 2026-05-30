@@ -1,0 +1,149 @@
+1. SaneBox, une solution de gestion intelligente des emails (15 Avril 2026)
+
+Lien : https://www.lebigdata.fr/sanebox-solution-de-gestion-intelligente-des-emails
+
+Résumé : Cet article de LeBigData explique comment l'entreprise SaneBox déploie des algorithmes de Machine Learning pour analyser l'historique de communication des professionnels (avocats, médecins) afin de trier automatiquement les emails critiques du "bruit de fond", sans configuration manuelle lourde.
+
+2. Replika AI : pourquoi les internautes veulent coucher avec cette IA ? (7 Avril 2026)
+
+Lien : https://www.lebigdata.fr/replika-ai-tout-savoir
+
+Résumé : Un cas d'usage sociétal très concret. L'article détaille comment l'application Replika utilise le Machine Learning pour s'adapter au comportement de l'utilisateur et simuler une relation (amicale ou romantique), soulevant des questions sur la santé mentale et l'addiction aux chatbots.
+
+3. Le Machine Learning pour révéler les secrets des collisions de particules (18 Février 2026)
+
+Lien : https://home.cern/news/news/physics/machine-learning-reveal-more-about-lhc-particle-collisions
+
+Résumé : Une actualité officielle du CERN démontrant que leurs récents modèles de Machine Learning surpassent désormais les méthodes traditionnelles pour reconstruire et analyser les collisions de particules dans le grand collisionneur de hadrons (LHC).
+
+4. Les missions concrètes d'un Ingénieur Machine Learning en 2026 (16 Février 2026)
+
+Lien : https://em-lyon.com/fr/etudiant/guides/metiers/ingenieur-machine-learning
+
+Résumé : Cet article d'orientation de l'emlyon illustre concrètement ce que fait le ML aujourd'hui en entreprise : optimisation de la chaîne logistique, reconnaissance faciale, et systèmes de détection de fraude dans les banques-assurances.
+
+5. Un "ChatGPT pour tableurs" pour résoudre des défis d'ingénierie (4 Mars 2026)
+
+Lien : https://news.mit.edu/2026/chatgpt-spreadsheets-helps-solve-difficult-engineering-challenges-faster-0304
+
+Résumé : Le MIT News présente une nouvelle approche où le Machine Learning est intégré à des interfaces de type tableur pour aider les ingénieurs à optimiser des problèmes complexes, comme la gestion des réseaux électriques ou la conception de véhicules automobiles.
+
+6. Améliorer la capacité des modèles d'IA à expliquer leurs prédictions (9 Mars 2026)
+
+Lien : https://news.mit.edu/2026/neurons-receive-precisely-tailored-teaching-signals-as-we-learn-0309
+
+Résumé : Toujours via le MIT, cet article se penche sur un cas d'usage critique : la confiance en entreprise. Il présente une nouvelle méthode pour que le Machine Learning puisse justifier ses choix dans des applications où la sécurité est vitale, comme les diagnostics de santé ou la conduite autonome.
+
+7. 8 cas d'usage de l'IA les plus courants en entreprise (Fin 2025)
+
+Lien : https://bigmedia.bpifrance.fr/nos-dossiers/8-cas-dusage-de-lia-les-plus-courants-en-entreprise
+
+Résumé : Bpifrance détaille l'utilisation du Machine Learning par des entreprises françaises. L'article cite notamment l'agence Open Studio, qui utilise des algorithmes apprenant en temps réel pour adapter ses offres commerciales et anticiper les comportements d'achat.
+
+8. Le Machine Learning dans la formation professionnelle (Fin 2025 / 2026)
+
+Lien : https://www.dendreo.com/lexique/machine-learning-definition
+
+Résumé : L'éditeur d'ERP Dendreo explique comment le Machine Learning est concrètement appliqué dans les organismes de formation de taille moyenne pour personnaliser les parcours pédagogiques et analyser linguistiquement les productions écrites des apprenants.
+
+9. Le boom de l'AIoT : Quand le Machine Learning intègre les objets (Janvier 2026)
+
+Lien : https://transformainsights.com/ai-machine-learning
+
+Résumé : Un rapport de Transforma Insights montrant la fusion actuelle entre l'IoT (Internet des Objets) et le Machine Learning. L'article prévoit que d'ici quelques années, un quart des appareils connectés embarqueront nativement des modèles de ML pour des usages industriels.
+
+10. AWS et les applications industrielles du Machine Learning 
+
+Lien : https://aws.amazon.com/fr/what-is/machine-learning/
+
+Résumé : Bien que ce soit une page Amazon, elle a été récemment mise à jour avec des cas d'usage précis et sourcés : l'entreprise 3M qui utilise le ML pour innover dans la fabrication de papier abrasif (en analysant l'abrasivité), ou Cambia Health Solutions qui s'en sert pour automatiser le suivi des femmes enceintes.
+
+11. Mieux maîtriser la notion de temps dans l'apprentissage automatique (Inria - 2 Décembre 2025)
+
+Lien : https://www.inria.fr/fr/ia-apprentissage-automatique-malt-rennes
+
+Résumé : Un excellent article de l'institut de recherche Inria. Il aborde un problème technique très concret dans l'industrie : la difficulté des modèles de Machine Learning actuels à traiter des données temporelles (séries temporelles). L'article évoque notamment les tentatives de Google avec son modèle TimesFM et la nécessité de générer des données synthétiques temporelles pour des applications industrielles respectueuses de la vie privée.
+
+12. IA, IoT, Big Data et Machine Learning dans l'industrie (Divalto - 15 Octobre 2025)
+
+Lien : https://www.divalto.com/ia-iot-big-data-machine-learning-dans-lindustrie/
+
+Résumé : Cet article explique le cas d'usage par excellence du Machine Learning en usine : la maintenance prédictive. Il détaille comment les algorithmes de ML ingèrent les signaux faibles issus des capteurs connectés (IoT) sur les machines pour créer des modèles statistiques personnalisés capables d'anticiper les pannes avant qu'elles ne se produisent.
+
+13. La série sur l'IA à France Travail : l'impact environnemental (Solidaires - 20 Avril 2026)
+
+Lien : https://solidaires.org/sinformer-et-agir/actualites-et-mobilisations/sectorielles/la-serie-sur-lia-a-france-travail/
+
+Résumé : Un article syndical critique et très récent concernant le déploiement du Machine Learning au sein de France Travail. Il dénonce l'impact environnemental insoutenable lié à la consommation d'énergie nécessaire pour l'entraînement et l'exécution de ces modèles, tout en pointant du doigt les conditions de travail des "travailleurs du clic" dans les pays du Sud qui entraînent ces algorithmes.
+
+14. Comprendre les fondamentaux de l'IA : ce que les entreprises doivent savoir en 2026 (CCI Bretagne - 13 Mars 2026)
+
+Lien : https://www.bretagne.cci.fr/blog/comprendre-les-fondamentaux-de-lia-ce-que-les-entreprises-doivent-savoir-en-2026-0
+
+Résumé : Un compte-rendu de la Chambre de Commerce et d'Industrie destiné aux décideurs. L'article fait un point clair sur la différence technique et stratégique entre le Machine Learning "classique" et l'IA générative pour les PME. Il aborde également les problématiques de biais et d'hallucinations dans les déploiements concrets en entreprise.
+
+15. Formation IA 2026 : Quelle certification choisir ? (Elitek - 16 Avril 2026)
+
+Lien : https://www.elitek.fr/post/formation-ia-certification-2026
+
+Résumé : Un tour d'horizon tout frais des compétences exigées en entreprise cette année. L'article détaille notamment la refonte récente des certifications chez Microsoft (Azure) avec l'arrivée de la certification "MLOps Engineer Associate" (déployée en mars 2026), dédiée aux opérations de Machine Learning, et donne un aperçu concret des salaires (50k à 80k) pour un ingénieur ML en France aujourd'hui.
+
+16. Le machine learning en prévision n'est ni magique, ni un simple argument marketing (Presse Agence - 28 Mars 2026)
+
+Lien : https://presseagence.fr/paris-mehdi-kharab-le-machine-learning-en-prevision-nest-ni-magique-ni-un-simple-argument-marketing/
+
+Résumé : Un retour d'expérience très pragmatique d'un expert de l'entreprise Colibri. L'article explique comment le Machine Learning (notamment via les modèles de type XGBoost) révolutionne concrètement la prévision des ventes et la gestion de la Supply Chain, à condition que l'entreprise prépare rigoureusement ses données en amont.
+
+17. Modèles de classification en machine learning : cas d'usage pour les Jumeaux Numériques (Immersia - 19 Novembre 2025)
+
+Lien : https://www.immersia.eu/fr/ressources/blog/modeles-de-classification-en-machine-learning-cas-dusage-et-bonnes-pratiques
+
+Résumé : Cet article technique mais accessible détaille l'utilisation du Machine Learning couplé aux "jumeaux numériques" (digital twins) dans l'industrie. Il montre comment les modèles de classification analysent les données en direct pour prédire l'état d'usure d'un équipement physique, l'apparition de pannes ou le comportement futur d'une machine.
+
+18. Utilisation de l'IA en entreprise en 2026 : enjeux, défis et déploiement (Cabinet Mosselmans - 20 Janvier 2026)
+
+Lien : https://www.cabinet-mosselmans.com/utilisation-de-lia-en-entreprise/
+
+Résumé : Un guide concret axé sur les PME/TPE. Il met en lumière l'intégration actuelle des algorithmes de Machine Learning dans les services comptables, notamment pour la reconnaissance et l'automatisation du traitement des factures (en vue de la facturation électronique obligatoire), la détection d'anomalies financières et la prévision de trésorerie.
+
+19. Qu'est-ce que le MLOps ? De l'artisanat à l'échelle industrielle (La Revue IA - 19 Novembre 2025)
+
+Lien : https://larevueia.fr/quest-ce-que-le-mlops/
+
+Résumé : Un article indispensable pour comprendre la réalité du terrain. Il explique que créer un modèle de Machine Learning ne suffit plus ; l'enjeu d'entreprises comme Uber ou Netflix est le MLOps (Machine Learning Operations). L'article détaille comment ces entreprises déploient, surveillent et mettent à jour automatiquement des milliers de modèles en temps réel pour éviter qu'ils ne "dérivent" une fois en production.
+
+20. Rapport de l'Assemblée nationale sur l'irruption de l'IA dans les ingérences étrangères (Assemblée Nationale - 3 Décembre 2025)
+
+Lien : https://www.assemblee-nationale.fr/dyn/17/rapports/cion_afetr/l17b2192_rapport-information
+
+Résumé : Un document officiel (rapport n° 2192) qui illustre un cas d'usage géopolitique et sécuritaire. Le rapport détaille comment le Machine Learning est désormais utilisé de manière offensive pour l'empoisonnement de données (data poisoning), l'automatisation des cyberattaques et la manipulation d'opinions via des réseaux de faux comptes à grande échelle.
+
+21. Tem lève 75 M$ pour révolutionner le marché de l'électricité avec l'IA (LeBigData - 16 Février 2026)
+
+Lien : https://www.lebigdata.fr/tem-leve-75-m-pour-revolutionner-le-marche-de-lelectricite-avec-lia
+
+Résumé : Un cas très concret dans le secteur de l'énergie. L'article explique comment la startup Tem utilise des algorithmes de Machine Learning pour créer une plateforme de transactions énergétiques (Rosso) qui anticipe l'offre et la demande en temps réel. Le but pour les entreprises clientes (comme Boohoo ou le club de Newcastle) est de court-circuiter les fournisseurs traditionnels pour obtenir l'électricité au prix de gros.
+
+22. Tech et Industrie 4.0 : 4 femmes qui façonnent le numérique industriel (France Travail - 20 Avril 2026)
+
+Lien : https://www.francetravail.fr/actualites/a-laffiche/2026/tech-et-industrie-4-0-4-femmes-q.html
+
+Résumé : Cet article très récent met en lumière les métiers de l'industrie connectée et donne des exemples industriels tangibles de l'utilisation de l'apprentissage automatique en usine : optimisation des flux de production en temps réel, réduction de la consommation énergétique des machines, et contrôle qualité automatisé détectant les défauts de fabrication avec une "précision surhumaine".
+
+23. Atlas, le robot de Boston Dynamics revient en électrique (LeBigData - 26 Janvier 2026)
+
+Lien : https://www.lebigdata.fr/atlas-le-robot-de-boston-dynamics-revient-en-electrique
+
+Résumé : Au-delà du buzz matériel, l'article détaille le déploiement réel du robot par Hyundai Motor dans ses usines logistiques de Géorgie. Le système embarque des algorithmes de Machine Learning qui lui permettent d'apprendre rapidement à trier des pièces automobiles et surtout de "prédire les trajectoires du personnel humain" pour ajuster ses mouvements et éviter les collisions.
+
+24. Business Intelligence ou informatique décisionnelle : définition et outils (LeBigData - 2 Janvier 2026)
+
+Lien : https://www.lebigdata.fr/business-intelligence-definition
+
+Résumé : Une bonne synthèse de la manière dont le Machine Learning a infusé dans les outils de Business Intelligence classiques. L'article prend l'exemple précis de l'industrie hôtelière et des compagnies aériennes, qui utilisent ces modèles pour prédire les taux d'occupation des chambres ou des vols, ce qui leur permet d'ajuster leur tarification de manière dynamique et autonome.
+
+25. L'utilisation de l'IA en entreprise : impacts sur les employés et les clients (Nexa - 19 Décembre 2025)
+
+Lien : https://www.nexa.fr/blog/utilisation-de-l-ia-en-entreprise-impacts-sur-les-employes-et-les-clients
+
+Résumé : Ce billet détaille les différents pans de l'IA déployés aujourd'hui en entreprise. Concernant le volet purement Machine Learning, l'article met en évidence son utilisation quotidienne par les entreprises pour l'élaboration de résultats prédictifs (à partir de données volumineuses) afin d'optimiser les performances commerciales et de réduire les coûts opérationnels au quotidien.

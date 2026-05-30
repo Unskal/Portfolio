@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsflix - Mathis Delaune</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .project-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 40px;
+            transition: color 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            color: var(--text-main);
+        }
+
+        .project-header {
+            margin-bottom: 60px;
+        }
+
+        /* Grille pour aligner Texte à gauche / Image à droite */
+        .feature-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            margin-bottom: 80px;
+        }
+
+        /* Inverse l'ordre pour casser la monotonie (Image à gauche / Texte à droite) */
+        .feature-row.reverse {
+            direction: rtl;
+        }
+        .feature-row.reverse > * {
+            direction: ltr;
+        }
+
+        .feature-text h2 {
+            font-size: 2em;
+            color: var(--text-main);
+            margin-bottom: 20px;
+        }
+
+        .feature-text p {
+            color: var(--text-muted);
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        /* Boîte pour tes futures images */
+        .media-placeholder {
+            background: var(--card-bg);
+            border: 1px dashed var(--primary);
+            border-radius: 16px;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .media-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 992px) {
+            .feature-row { grid-template-columns: 1fr; }
+            .feature-row.reverse { direction: ltr; }
+        }
+    </style>
+</head>
+<body style="background-color: var(--bg-color);"> <div class="project-container">
+        
+        <a href="index.html#projets" class="back-btn">← Retour au portfolio</a>
+
+        <div class="project-header">
+            <h1 class="section-title">Unsflix</h1>
+            <p style="font-size: 1.2em; color: var(--text-muted); max-width: 800px;">
+                Je vous présente mon application de VOD développée en Go. De l'interface graphique à la base de données.
+            </p>
+        </div>
+
+        <div class="feature-row">
+            <div class="feature-text">
+                <h2>1. Authentification</h2>
+                <p>La première étape de l'application est une fenêtre de connexion sécurisée. Elle permet d'identifier l'utilisateur et de charger son profil.</p>
+                <p>Cette étape est cruciale car elle permet de <strong>forcer l'utilisateur à créer ou accéder à son compte</strong>, afin de récupérer les données spécifiques du client (comme ses films en cours de lecture).</p>
+            </div>
+            <div class="media-placeholder" style="height: auto; padding: 0; overflow: hidden;">
+                <img src="/Ressources/unsflixConnexion.png" 
+                alt="Interface de l'accueil de Unsflix" 
+                style="width: 100%; height: auto; display: block;">
+            </div>
+        </div>
+
+        <div class="feature-row reverse">
+            <div class="feature-text">
+                <h2>2. Navigation & Catalogue</h2>
+                <p>L'interface principale a été pensée pour être intuitive, rappelant les grands standards du streaming. Elle est divisée en plusieurs onglets : <strong>Accueil</strong>, <strong>Films</strong>, et <strong>Séries</strong>.</p>
+                <p>Le catalogue est généré aléatoirement en interrogeant le serveur.</p>
+            </div>
+            <div class="media-placeholder" style="height: auto; padding: 0; overflow: hidden;">
+                <img src="/Ressources/unsflixAccueil.png" 
+                alt="Interface de l'accueil de Unsflix" 
+                style="width: 100%; height: auto; display: block;">
+            </div>
+        </div>
+
+        <div class="feature-row">
+            <div class="feature-text">
+                <h2>3. Détails sur les films</h2>
+                <p>J'ai pensé qu'il était important d'avoir une idée des avis et un résumé du film avant de se décider à le regarder.</p>
+                <p>Ainsi j'ai utilisé <strong>une API </strong>. Elle récupère les informations du site de <strong>The Movie Database (TMDB)</strong> et les afiches directement à l'utilisateur.</p>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="media-placeholder" style="height: auto; padding: 0; overflow: hidden;">
+                <img src="/Ressources/unflixAPI.png" 
+                alt="Interface de l'accueil de Unsflix" 
+                style="width: 100%; height: auto; display: block;">
+            </div>
+            </div>
+        </div>
+
+        <div class="feature-row reverse">
+            <div class="feature-text">
+                <h2>4. Lecteur Vidéo & Télécommande</h2>
+                <p>Le flux vidéo est récupéré depuis le serveur Windows et lu directement dans l'application.</p>
+                <p>Pour contrôler ce flux, j'ai conçu <strong>une télécommande "fait maison"</strong>. Elle communique avec l'application pour permettre de mettre en pause, avancer ou reculer.</p>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="media-placeholder" style="height: auto; padding: 0; overflow: hidden;">
+                <img src="/Ressources/unsflixLecture.png" 
+                alt="Interface de l'accueil de Unsflix" 
+                style="width: 100%; height: auto; display: block;">
+            </div>
+            </div>
+        </div>
+
+        <div class="feature-row">
+            <div class="feature-text">
+                <h2>4. Base de données & Reprise de lecture</h2>
+                <p>Toute la logique de l'application repose sur une base de données <strong>MariaDB</strong> hébergée sur mon serveur.</p>
+                <p>L'une des fonctionnalités phares que j'ai implémentées est la <strong>sauvegarde du temps de lecture</strong>. Lorsqu'un client arrête un film, l'application envoie une requête à la base de données pour enregistrer le temps exact. À sa prochaine connexion, il peut reprendre sa lecture exactement là où il s'était arrêté.</p>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+                <div class="media-placeholder" style="height: auto; padding: 0; overflow: hidden;">
+                <img src="/Ressources/unsflixAccueil.png" 
+                alt="Interface de l'accueil de Unsflix" 
+                style="width: 100%; height: auto; display: block;">
+            </div>
+            <div class="media-placeholder" style="height: auto; padding: 0; overflow: hidden;">
+                <img src="/Ressources/unsflixAccueil.png" 
+                alt="Interface de l'accueil de Unsflix" 
+                style="width: 100%; height: auto; display: block;">
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

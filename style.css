@@ -1,0 +1,459 @@
+/* =========================================
+   1. VARIABLES & RESET (BASE DU THÈME CLAIR)
+========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --bg-color: #f8fafc; /* Gris extrêmement clair (presque blanc) pour le fond principal */
+  --bg-alt: #ffffff; /* Blanc pur pour alterner les sections */
+  --primary: #8b5cf6; /* Le violet vif reste, il ressort super bien sur le blanc */
+  --primary-hover: #7c3aed;
+  --text-main: #0f172a; /* Noir/Gris très foncé pour le texte principal */
+  --text-muted: #475569; /* Gris moyen pour les textes secondaires */
+  --card-bg: rgba(255, 255, 255, 0.8); /* Fond blanc transparent pour les cartes */
+  --border-color: rgba(0, 0, 0, 0.08); /* Ligne grise très discrète pour les bordures */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* =========================================
+   2. SIDEBAR LATÉRALE (LE MENU GAUCHE)
+========================================= */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.95); /* Fond blanc semi-transparent */
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-content {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #e7e1f6;
+}
+
+.logo {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--text-main);
+  text-decoration: none;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-muted);
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: block;
+  padding: 12px 15px;
+  border-left: 3px solid transparent;
+  border-radius: 0 8px 8px 0;
+}
+
+.nav-links a:hover {
+  color: var(--text-main);
+  background: rgba(0, 0, 0, 0.03); /* Léger fond gris au survol */
+}
+
+/* L'EFFET D'ALLUMAGE QUAND ON SCROLLE */
+.nav-links a.active {
+  color: var(--primary);
+  font-weight: 600;
+  border-left: 3px solid var(--primary);
+  background: linear-gradient(90deg, rgba(139, 92, 246, 0.08) 0%, transparent 100%);
+}
+
+/* =========================================
+   3. STRUCTURE DU CONTENU PRINCIPAL
+========================================= */
+.main-content {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+}
+
+.section {
+  padding: 100px 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.alt-bg {
+  background-color: var(--bg-alt);
+}
+
+.section-title {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  text-align: left;
+  font-weight: 700;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: var(--primary);
+  margin-top: 15px;
+  border-radius: 2px;
+}
+
+/* =========================================
+   4. ACCUEIL (HERO SECTION)
+========================================= */
+.hero {
+  align-items: flex-start;
+}
+
+.hero-content h1 {
+  font-size: 4em;
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.hero-content h2 {
+  font-size: 2em;
+  color: var(--text-muted);
+  margin-bottom: 25px;
+  font-weight: 500;
+}
+
+.hero-content p {
+  font-size: 1.1em;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin-bottom: 40px;
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+/* =========================================
+   5. BOUTONS
+========================================= */
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1.05em;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.btn-primary:hover {
+  background: var(--primary-hover);
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(139, 92, 246, 0.4);
+}
+
+.btn-secondary {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  margin-top: 20px;
+  background: transparent;
+}
+
+.btn-secondary:hover {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+/* =========================================
+   6. CARTES (GLASSMORPHISM VERSION CLAIRE)
+========================================= */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  width: 100%;
+}
+
+.glass-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--border-color);
+  padding: 40px;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03); /* Ombre douce de base */
+
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Force la carte à prendre toute la hauteur dispo dans la grille */
+  
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08); /* Ombre plus forte au survol */
+  border-color: rgba(139, 92, 246, 0.3);
+}
+
+.glass-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: var(--text-main);
+}
+
+.glass-card p {
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(139, 92, 246, 0.1);
+  color: var(--primary);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+}
+
+/* Listes propres (Compétences) */
+.clean-list {
+  list-style: none;
+}
+
+.clean-list li {
+  padding: 10px 0;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+
+
+/* Tags de technologies (Projets) */
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.tech-tags span {
+  font-size: 0.85em;
+  background: rgba(0, 0, 0, 0.03);
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+}
+
+.project-link {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  
+  margin-top: auto; /* Pousse le bouton vers le bas */
+  align-self: flex-start; 
+}
+
+.project-link:hover {
+  color: var(--text-main);
+}
+
+/* =========================================
+   7. SECTION À PROPOS
+========================================= */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text p {
+  font-size: 1.1em;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+}
+
+.img-placeholder {
+  width: 100%;
+  height: 400px;
+  background: #f1f5f9; /* Gris très clair pour remplacer l'image temporaire */
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* Style de la photo de profil */
+.profile-img {
+  width: 100%;
+  max-width: 400px; /* Évite que la photo soit gigantesque */
+  height: 400px;
+  object-fit: cover; /* Permet de recadrer proprement l'image sans l'écraser */
+  border-radius: 16px; /* Bords arrondis comme les cartes */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1); /* Jolie ombre douce */
+  display: block;
+  margin: 0 auto; /* Centre l'image */
+}
+
+/* =========================================
+   10. SECTION VEILLE
+========================================= */
+.veille-topic {
+  width: 100%;
+}
+
+.veille-topic-title {
+  font-size: 1.8em;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 30px;
+  padding-left: 15px;
+  border-left: 4px solid var(--primary);
+}
+
+.veille-articles {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.veille-card {
+  padding: 30px 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.veille-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.veille-number {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.veille-article-title {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.veille-date {
+  font-size: 0.85em;
+  color: var(--text-muted);
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.veille-link {
+  margin-top: 0;
+}
+
+.veille-summary {
+  font-size: 0.95em;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid var(--border-color);
+}
+footer {
+  text-align: center;
+  padding: 40px;
+  background: rgb(255, 252, 252);
+  color: black;
+  border-top: 1px solid;
+  border-color: rgb(227, 227, 227);
+  width: 100%;
+}
+
+/* =========================================
+   9. RESPONSIVE (TÉLÉPHONES)
+========================================= */
+@media (max-width: 992px) {
+  .sidebar {
+    width: 100%;
+    height: 70px;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    flex-direction: row;
+  }
+  .nav-content {
+    padding: 0 20px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #e7e1f6;
+  }
+  .logo { margin-bottom: 0; font-size: 1.5em; }
+  .nav-links { display: none; }
+  
+  .main-content, footer { margin-left: 0; width: 100%; }
+  .section { padding: 100px 30px 60px 30px; }
+  .hero { min-height: 100vh; }
+  .hero-content h1 { font-size: 3em; }
+  .about-grid { grid-template-columns: 1fr; }
+}
+
+
